@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>PICANTE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="robots" content="noindex, nofollow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="Author" content="Serhii Zhyltsov development" />
+	<meta name="description" content="text" />
+	<meta name="keywords" content="text" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="images/favicons/site.webmanifest">
+	<link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="css/style.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+</head>
+
+<body>
+
+	<div class="page">
+
+		<header class="header" id="home">
+
+  <div class="container">
+
+    <nav class="header__menu menu">
+
+      <a class="menu__logo" href="#home">
+        <img class="menu__img" src="images/icons/logo.png" alt="сompany logo" width="170">
+      </a>
+
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="#home">
+            home
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#about">
+            about
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#gallery">
+            gallery
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#menu">
+            menu
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contacts">
+            contacts
+          </a>
+        </li>
+      </ul>
+
+      <a href="#" class="btn btn--light">reservation</a>
+
+      <button class="menu__btn" type="button">
+        <span></span>
+      </button>
+
+    </nav>
+
+    <div class="header__content">
+      <img class="header__penn" src="images/slides/layers.png" alt="white pennon">
+      <h1 class="header__title" id="header-title">tasty passion</h1>
+      <p class="header__subtitle">
+        <span class="header__square-left">20</span>
+        Cooking Since
+        <span class="header__square-right">01</span>
+      </p>
+      <a href="" class="header__btn btn">
+        <svg class="btn__icon">
+          <use xlink:href="images/sprite.svg#eye"></use>
+        </svg>
+        view details</a>
+    </div>
+  </div>
+
+  <div class="header__slider">
+    <div class="header__slider-item" style="background-image: url('images/slides/slide-1.jpg');"></div>
+    <div class="header__slider-item" style="background-image: url('images/slides/slide-2.jpg');"></div>
+    <div class="header__slider-item" style="background-image: url('images/slides/slide-3.jpg');"></div>
+  </div>
+
+</header>
+
+		<main class="main">
+			<section class="chefs" id="about">
+  <div class="container">
+    <div class="chefs__inner">
+
+      <h2 class="chefs__title title">
+        <span class="title__accent">About</span>
+        Our Chefs
+      </h2>
+      <div class="chefs__slider">
+
+        <div class="chefs__item">
+          <div class="chefs__img" style="background-image: url('images/chefs/chief-1.jpg');"></div>
+          <p class="chefs__name">
+            Gustave Berneir
+          </p>
+          <span class="chefs__role">
+            Executive Chef
+          </span>
+
+          <blockquote class="chefs__blockquote">
+            Cooking does not tolerate distraction. If you enter this arena without due respect.
+          </blockquote>
+
+          <p class="chefs__text">
+            If given to you, then you will not be forever a chef in supermarket cooking, but you will become a pro with
+            a
+            name, perhaps even a chef with a capital letter. Be a real pro, and they will know about you. By the
+            way,
+            this
+            is not the main thing.
+          </p>
+
+        </div>
+
+        <div class="chefs__item">
+          <div class="chefs__img" style="background-image: url('images/chefs/chief-2.jpg');"></div>
+          <p class="chefs__name">
+            Riccardo Rinaldi
+          </p>
+          <span class="chefs__role">
+            Executive Chef
+          </span>
+
+          <blockquote class="chefs__blockquote">
+            High culinary art is the only human ability about which nothing bad can be said.
+          </blockquote>
+
+          <p class="chefs__text">
+            With food, everything is simple: we are all doomed to eat three times a day for the rest of our lives. So
+            let's eat what is nutritious, tasty, and enjoyable. In my opinion, a very uncomplicated philosophy.
+            Everyone can cook with enthusiasm.
+          </p>
+
+        </div>
+
+        <div class="chefs__item">
+          <div class="chefs__img" style="background-image: url('images/chefs/chief-3.jpg');"></div>
+          <p class="chefs__name">
+            Alessio Costa
+          </p>
+          <span class="chefs__role">
+            Executive Chef
+          </span>
+
+          <blockquote class="chefs__blockquote">
+            Cooking is like love: you either need to plunge into it with your head, or not to plunge at all.
+          </blockquote>
+
+          <p class="chefs__text">
+            Everyone can cook with enthusiasm. You just need to be a person inspired and passionate, try to enjoy the
+            cooking process. And when you have a good soulful dish and all your efforts are appreciated, that will be
+            enough for you to want to cook more.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="slider-arrow">
+        <button class="slider-arrow__btn arrow-prev" id='btn-prev' type="button">
+          <span class="sr-only">previous slide</span>
+          <svg class="arrow-prev__icon">
+            <use xlink:href="images/sprite.svg#chevron-left"></use>
+          </svg>
+        </button>
+        <button class="slider-arrow__btn arrow-next" id='btn-next' type="button">
+          <span class="sr-only">next slide</span>
+          <svg class="arrow-next__icon">
+            <use xlink:href="images/sprite.svg#chevron-right"></use>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="chefs__box" style="background-image: url('images/chefs/chefs.jpg');">
+    <a data-fancybox class="chefs__video" href="https://youtu.be/Yks3HLa_IdI">
+      <svg class="chefs__play">
+        <use xlink:href="images/sprite.svg#play"></use>
+      </svg>
+    </a>
+  </div>
+
+</section>
+			<section class="gallery" id="gallery">
+  <h2 class="title title--light">
+    <span class="title__accent">Our </span>
+    Gallery
+  </h2>
+
+  <p class="gallery__descr">
+    Everyone can cook with enthusiasm. You just need to be a person inspired and passionate, try to enjoy the
+    cooking process.
+  </p>
+
+  <ul class="gallery__filter">
+
+    <li class="gallery__filter-item">
+      <button class="gallery__filter-btn active" data-filter="all" type="button">
+        all
+      </button>
+    </li>
+
+    <li class="gallery__filter-item">
+      <button class="gallery__filter-btn" data-filter=".category-a" type="button">
+        meat
+      </button>
+    </li>
+
+    <li class="gallery__filter-item">
+      <button class="gallery__filter-btn" data-filter=".category-b" type="button">
+        fish
+      </button>
+    </li>
+
+    <li class=" gallery__filter-item">
+      <button class="gallery__filter-btn" data-filter=".category-c" type="button">
+        dessert
+      </button>
+    </li>
+
+    <li class=" gallery__filter-item">
+      <button class="gallery__filter-btn" data-filter=".category-d" type="button">
+        vegetarian
+      </button>
+    </li>
+
+  </ul>
+
+  <ul class="gallery__inner">
+
+    <li class="gallery__item mix category-a">
+      <div class="gallery__item-holder">
+        <img class="gallery__img" src="images/gallery/meat-1.jpg" alt="meat dish" height="274">
+        <a class="gallery__content" href="#">
+          <span class="gallery__title">Dish name</span>
+          <span class="gallery__category">meat</span>
+        </a>
+        <div class="gallery__box">
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#link"></use>
+            </svg>
+          </a>
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="gallery__item mix category-b">
+      <div class="gallery__item-holder">
+        <img class="gallery__img" src="images/gallery/fish-2.jpg" alt="fish dish" height="274">
+        <a class="gallery__content" href="#">
+          <span class="gallery__title">Dish name</span>
+          <span class="gallery__category">fish</span>
+        </a>
+        <div class="gallery__box">
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#link"></use>
+            </svg>
+          </a>
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="gallery__item mix category-c">
+      <div class="gallery__item-holder">
+        <img class="gallery__img" src="images/gallery/dessert-3.jpg" alt="dessert dish" height="274">
+        <a class="gallery__content" href="#">
+          <span class="gallery__title">Dish name</span>
+          <span class="gallery__category">dessert</span>
+        </a>
+        <div class="gallery__box">
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#link"></use>
+            </svg>
+          </a>
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="gallery__item mix category-d">
+      <div class="gallery__item-holder">
+        <img class="gallery__img" src="images/gallery/vegetarian-1.jpg" alt="vegetarian dish" height="274">
+        <a class="gallery__content" href="#">
+          <span class="gallery__title">Dish name</span>
+          <span class="gallery__category">vegetarian</span>
+        </a>
+        <div class="gallery__box">
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#link"></use>
+            </svg>
+          </a>
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="gallery__item mix category-b">
+      <div class="gallery__item-holder">
+        <img class="gallery__img" src="images/gallery/fish-3.jpg" alt="fish dish" height="274">
+        <a class="gallery__content" href="#">
+          <span class="gallery__title">Dish name</span>
+          <span class="gallery__category">fish</span>
+        </a>
+        <div class="gallery__box">
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#link"></use>
+            </svg>
+          </a>
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="gallery__item mix category-c">
+      <div class="gallery__item-holder">
+        <img class="gallery__img" src="images/gallery/dessert-1.jpg" alt="dessert dish" height="274">
+        <a class="gallery__content" href="#">
+          <span class="gallery__title">Dish name</span>
+          <span class="gallery__category">dessert</span>
+        </a>
+        <div class="gallery__box">
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#link"></use>
+            </svg>
+          </a>
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="gallery__item mix category-a">
+      <div class="gallery__item-holder">
+        <img class="gallery__img" src="images/gallery/meat-3.jpg" alt="meat dish" height="274">
+        <a class="gallery__content" href="#">
+          <span class="gallery__title">Dish name</span>
+          <span class="gallery__category">meat</span>
+        </a>
+        <div class="gallery__box">
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#link"></use>
+            </svg>
+          </a>
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </li>
+    <li class="gallery__item mix category-d">
+      <div class="gallery__item-holder">
+        <img class="gallery__img" src="images/gallery/vegetarian-2.jpg" alt="vegetarian dish" height="274">
+        <a class="gallery__content" href="#">
+          <span class="gallery__title">Dish name</span>
+          <span class="gallery__category">vegetarian</span>
+        </a>
+        <div class="gallery__box">
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#link"></use>
+            </svg>
+          </a>
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="gallery__item mix category-b">
+      <div class="gallery__item-holder">
+        <img class="gallery__img" src="images/gallery/fish-1.jpg" alt="fish dish" height="274">
+        <a class="gallery__content" href="#">
+          <span class="gallery__title">Dish name</span>
+          <span class="gallery__category">fish</span>
+        </a>
+        <div class="gallery__box">
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#link"></use>
+            </svg>
+          </a>
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="gallery__item mix category-a">
+      <div class="gallery__item-holder">
+        <img class="gallery__img" src="images/gallery/meat-2.jpg" alt="meat dish" height="274">
+        <a class="gallery__content" href="#">
+          <span class="gallery__title">Dish name</span>
+          <span class="gallery__category">meat</span>
+        </a>
+        <div class="gallery__box">
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#link"></use>
+            </svg>
+          </a>
+          <a class="gallery__link" href="#">
+            <svg class="gallery__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </li>
+
+
+  </ul>
+
+</section>
+			<section class="services">
+  <div class="container">
+
+    <h2 class="title">
+      <span class="title__accent">Our </span>
+      Services
+    </h2>
+
+    <p class="services__descr">
+      When you want to rest, relax without bothering to prepare dinner, lunch, or just want a delicious snack, just come
+      to us and we will do everything for you and for you as soon as possible.
+    </p>
+
+    <ul class="services__inner">
+      <li class="services__item services__item--first">
+        <h3 class="services__title">
+          Breakfast
+        </h3>
+        <p class="services__text">
+          You have the opportunity to formulate the front menu for the day, or to change the stray from our turn, which
+          will be new for the skin of the day.
+        </p>
+      </li>
+      <li class="services__item services__item--second">
+        <h3 class="services__title">
+          Lunch
+        </h3>
+        <p class="services__text">
+          You have the opportunity to formulate the front menu for the day, or to change the stray from our turn, which
+          will be new for the skin of the day.
+        </p>
+      </li>
+      <li class="services__item services__item--third">
+        <h3 class=" services__title">
+          Dinner
+        </h3>
+        <p class="services__text">
+          You have the opportunity to formulate the front menu for the day, or to change the stray from our turn, which
+          will be new for the skin of the day.
+        </p>
+      </li>
+      <li class="services__item services__item--fourth">
+        <h3 class="services__title">
+          Custom
+        </h3>
+        <p class="services__text">
+          You have the opportunity to formulate the front menu for the day, or to change the stray from our turn, which
+          will be new for the skin of the day.
+        </p>
+      </li>
+    </ul>
+
+  </div>
+</section>
+			<section class="assortment" id="menu">
+  <div class="assortment__container container">
+    <h2 class="sr-only">Our assortment</h2>
+
+    <div class="assortment__slider">
+
+      <div class="assortment__item">
+
+        <h3 class="assortment__title">
+          <span class="assortment__title-accent">Our</span> Breakfast
+        </h3>
+
+        <ul class="assortment__list">
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Soft-Boiled Organic Egg
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with “soldiers”
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                5.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Soft-Boiled Organic Egg
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with “soldiers”
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                5.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Eggs Any Style
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with homefries & toast
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                16.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Eggs Any Style
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with homefries & toast
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                16.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Scrambled Eggs in Puff Pastry
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text assortment__text--long">
+                with wild mushrooms and asparagus
+              </span>
+              <span class="assortment__text assortment__text--short">
+                with mushrooms
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Scrambled Eggs in Puff Pastry
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text assortment__text--long">
+                with wild mushrooms and asparagus
+              </span>
+              <span class="assortment__text assortment__text--short">
+                with mushrooms
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Eggs Benedict
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with homefries
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Eggs Benedict
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with homefries
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Eggs Norwegian
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text assortment__text--long">
+                poached eggs with smoked salmon and hollandaise
+              </span>
+              <span class="assortment__text assortment__text--ahort">
+                poached eggs
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                23.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Eggs Norwegian
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                poached eggs with smoked salmon and hollandaise
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                23.00
+              </span>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="assortment__item">
+
+        <h3 class="assortment__title">
+          <span class="assortment__title-accent">Our</span> Lunch
+        </h3>
+
+        <ul class="assortment__list">
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Chicken fillet with cheese
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with “soldiers”
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                5.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Chicken fillet with cheese
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with “soldiers”
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                5.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Potatoes in tomato sauce
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with toast
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                16.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Potatoes in tomato sauce
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with toast
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                16.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Soup with meatballs and rice
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text assortment__text--long">
+                with wild mushrooms and asparagus
+              </span>
+              <span class="assortment__text assortment__text--short">
+                with mushrooms
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Soup with meatballs and rice
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text assortment__text--long">
+                with wild mushrooms and asparagus
+              </span>
+              <span class="assortment__text assortment__text--short">
+                with mushrooms
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Salmon pie with eggs and herbs
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with homefries
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Salmon pie with eggs and herbs
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with homefries
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Green fennel salad
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                salad
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                23.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Green fennel salad
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                salad
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                23.00
+              </span>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="assortment__item">
+
+        <h3 class="assortment__title">
+          <span class="assortment__title-accent">Our</span> Dinner
+        </h3>
+
+        <ul class="assortment__list">
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Cabbage salad with prunes
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                light salad
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                15.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Cabbage salad with prunes
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                light salad
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                15.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Tafelspitz with apple sauce
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with toast
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                16.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Tafelspitz with apple sauce
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with toast
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                16.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Dessert "Clouds"
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                light and airy
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Dessert "Clouds"
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                light and airy
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Pork cutlets with pear and nut salad
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with homefries
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Pork cutlets with pear and nut salad
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with homefries
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                22.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Dumplings with cottage cheese
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with tea and jam
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                23.00
+              </span>
+            </div>
+          </li>
+
+          <li class="assortment__list-item">
+            <h4 class="assortment__name">
+              Dumplings with cottage cheese
+            </h4>
+            <div class="assortment__info">
+              <span class="assortment__text">
+                with tea and jam
+              </span>
+              <span class="assortment__line"></span>
+              <span class="assortment__price">
+                23.00
+              </span>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <a href="" class="assortment__btn btn">
+      <svg class="btn__icon">
+        <use xlink:href="images/sprite.svg#eye"></use>
+      </svg>
+      view details
+    </a>
+
+    <div class="assortment__slider-arrow slider-arrow">
+      <button class="slider-arrow__btn arrow-prev" id='menu-prev' type="button">
+        <span class="sr-only">previous slide</span>
+        <svg class="arrow-prev__icon">
+          <use xlink:href="images/sprite.svg#chevron-left"></use>
+        </svg>
+      </button>
+      <button class="slider-arrow__btn arrow-next" id='menu-next' type="button">
+        <span class="sr-only">next slide</span>
+        <svg class="arrow-next__icon">
+          <use xlink:href="images/sprite.svg#chevron-right"></use>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+</section>
+		</main>
+
+		<footer class="footer" id="contacts">
+  <img class="footer__map" src="images/map.jpg" alt="we are on the map">
+  <div class="footer__top">
+    <div class="container">
+      <div class="footer__inner">
+
+        <div class="footer__links">
+
+          <a class="footer__logo" href="#home">
+            <img class="footer__logo-img" src="images/company-logo.png" alt="logo company">
+          </a>
+
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__icon">
+                  <use xlink:href="images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__icon">
+                  <use xlink:href="images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__icon">
+                  <use xlink:href="images/sprite.svg#pinterest"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__icon">
+                  <use xlink:href="images/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__icon">
+                  <use xlink:href="images/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="feedback-form" action="/">
+          <div class="feedback-form__title">
+            <span class="feedback-form__title-accent">Contact</span>
+            Us
+          </div>
+
+          <label class="feedback-form__label feedback-form__label--user">
+            <span class="sr-only">name input field</span>
+            <input class="feedback-form__input feedback-form__input--user" type="text" placeholder="Name*" required>
+          </label>
+
+          <label class="feedback-form__label feedback-form__label--email">
+            <span class="sr-only">email input field</span>
+            <input class="feedback-form__input feedback-form__input--mail" type="email" placeholder="Email*" required>
+          </label>
+
+          <label class="feedback-form__label">
+            <span class="sr-only">field for your message</span>
+            <textarea class="feedback-form__textarea" placeholder="Message" required></textarea>
+          </label>
+
+          <button class="feedback-form__btn" type="submit">send message</button>
+
+        </form>
+
+        <address class="footer-contacts">
+          <a class="footer-contacts__addr footer-contacts__link" href="https://goo.gl/maps/cpdSujEXGSUJ8v5w9">
+            <svg class="footer-contacts__icon">
+              <use xlink:href="images/sprite.svg#pin"></use>
+            </svg>
+            Little Lonsdale St, Melbourne <br>
+            Victoria 8011 Australia
+          </a>
+
+          <a class="footer-contacts__phone footer-contacts__link" href="tel:+38041234567891">
+            <svg class="footer-contacts__icon">
+              <use xlink:href="images/sprite.svg#mobile-phone"></use>
+            </svg>
+            Phone: (1) 234 567 891
+          </a>
+          <a class="footer-contacts__fax footer-contacts__link" href="tel:+38041234567891">
+            <svg class="footer-contacts__icon">
+              <use xlink:href="images/sprite.svg#fax"></use>
+            </svg>
+            Fax: (1) 234 567 891
+          </a>
+
+          <a class="footer-contacts__email footer-contacts__link" href="mailto:contact@barber.com">
+            <svg class="footer-contacts__icon">
+              <use xlink:href="images/sprite.svg#email"></use>
+            </svg>
+            support@yourname.com
+          </a>
+        </address>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <span class="footer__bottom-copy">© 2018 UMAMI. All Rights Reserved</span>
+  </div>
+
+</footer>
+
+
+	</div>
+
+
+	<a href="#home" class="pageup">
+  <svg class="pageup__icon">
+    <use xlink:href="images/sprite.svg#up-arrow"></use>
+  </svg>
+</a>
+
+	<script src="js/main.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
+
+</html>
